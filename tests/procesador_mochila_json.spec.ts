@@ -26,7 +26,7 @@ describe('Tests para la clase ProcesadorMochilaJSON', () => {
         expect(beneficios).to.be.deep.equal([8, 12, 15, 6]);
         expect(pesos).to.be.deep.equal([3, 5, 7, 2]);
       });
-      
+      procesadorJSON.procesar(file);
     });
     /**it('Se lanza un error al leer un ProcesadorMochilaJSON incorrectamente', () => {
       procesadorJSON.setHookAntes(() => {

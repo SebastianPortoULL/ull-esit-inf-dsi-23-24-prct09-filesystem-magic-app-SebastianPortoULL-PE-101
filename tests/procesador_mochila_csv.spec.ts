@@ -26,7 +26,7 @@ describe('Tests para la clase ProcesadorMochilaCSV', () => {
       expect(beneficios).to.be.deep.equal([5, 8, 10]);
       expect(pesos).to.be.deep.equal([2, 3, 5]);
     });
-    
+    procesadorCSV.procesar(file);
   });
   /**it('Se lanza un error al leer un ProcesadorMochilaCSV incorrectamente', () => {
     procesadorCSV.setHookAntes(() => {
@@ -36,6 +36,6 @@ describe('Tests para la clase ProcesadorMochilaCSV', () => {
       console.log('Beneficios (CSV):', beneficios);
       console.log('Pesos (CSV):', pesos);
     });
-    // expect(() => procesadorCSV.procesar(error_file)).to.throw(Error, 'Formato de archivo no soportado');
+    expect(() => procesadorCSV.procesar(error_file)).to.throw(Error, 'Formato de archivo no soportado');
   });*/
 })
