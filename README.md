@@ -8,5 +8,3 @@ Desarrolle los siguientes ejercicios en un proyecto alojado en un nuevo reposito
 6. Dado que tendrá que medir el cubrimiento de su código fuente haciendo uso de Instanbul, implemente un flujo de trabajo de GitHub Actions que envíe la información de cubrimiento generada a Coveralls con cada push llevado a cabo sobre su repositorio.
 7. Analice la calidad y seguridad del código fuente desarrollado mediante Sonar Cloud gracias a la implementación de un flujo de trabajo de GitHub Actions que se dispare con cada push llevado a cabo con su repositorio.
 8. Por último, recuerde que deberá incluir la documentación de su proyecto haciendo uso de TypeDoc.
-
-Como entrega de esta tarea deberá indicar el enlace al repositorio GitHub con los ejercicios de evaluación solicitados.
