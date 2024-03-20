@@ -1,3 +1,4 @@
+Práctica 9: Ejercicios - PE101
 Desarrolle los siguientes ejercicios en un proyecto alojado en un nuevo repositorio de GitHub:
 
 1. Suponga que tiene que utilizar un algoritmo para extraer información de ficheros que contienen información sobre una instancia del problema de la mochila. El inconveniente es que los ficheros se encuentran en diferentes formatos: CSV y JSON.
